@@ -25,7 +25,7 @@ func main() {
 		v1 = Vertex{1, 2}
 		v2 = Vertex{X: 1}  // Y:0
 		v3 = Vertex{}      // X:0 и Y:0
-		d  = &Vertex{1, 2} // d имеет тип *Vertex
+		d  = &Vertex{1, 2} // d имеет тип *Vertex - указатель на структуру
 	)
 	fmt.Println(v1, d, v2, v3)
 }
