@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// A Stringer is a type that can describe itself as a string.
+// A, Stringer is a type that can describe itself as a string.
 // type Stringer interface {
 //     String() string
 // }
